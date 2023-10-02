@@ -11,7 +11,8 @@ public class MouseOver {
 
    WebDriverManager.chromedriver().setup();
    ChromeDriver driver = new ChromeDriver();
-   driver.get("https://www.ebay.com.au/");
+   //driver.get("https://www.ebay.com.au/");
+   driver.get("http://soccer.com");
    driver.manage().window().maximize();
 	}
 
